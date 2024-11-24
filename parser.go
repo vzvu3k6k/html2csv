@@ -23,7 +23,7 @@ func getCSVFromHTML(r io.Reader) (string, error) {
 
 	var b strings.Builder
 	for _, tr := range table.Find("tr").EachIter() {
-		tds := tr.Find("td")
+		tds := tr.Find("td,th")
 		for i, td := range tds.EachIter() {
 			b.WriteString(strings.TrimSpace(td.Text()))
 			if i < tds.Length()-1 {
