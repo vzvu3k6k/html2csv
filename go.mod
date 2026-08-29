@@ -6,7 +6,7 @@ toolchain go1.26.1
 
 require (
 	github.com/PuerkitoBio/goquery v1.12.0
-	github.com/google/go-cmp v0.6.0
+	github.com/google/go-cmp v0.7.0
 )
 
 require (
