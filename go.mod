@@ -2,7 +2,7 @@ module github.com/vzvu3k6k/html2csv
 
 go 1.25.0
 
-toolchain go1.26.1
+toolchain go1.27.1
 
 require (
 	github.com/PuerkitoBio/goquery v1.12.0
